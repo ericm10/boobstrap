@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>formularios con bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<form action="">
+			<div class="form-group">
+				<label for="nombres">nombre</label>
+				<input type="text" id="nombres" class="form-control">				
+			</div>
+			<div class="form-group">
+				<label for="email">correo</label>
+				<input type="text" id="email" class="form-control" placeholder="correo">				
+			</div>	
+			<div class="form-group">
+				<label for="ciudad">ciudad</label>
+				<select name="ciudad" id="ciudad" class="form-control">
+					<option value="1">Bogota</option>
+					<option value="2">Cali</option>		
+				</select>
+			</div>
+			<div class="form-group">
+				<button class="btn btn-success btn-block">Guardar</button>
+			</div>
+		</form>
+		
+
+
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
